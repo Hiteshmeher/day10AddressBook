@@ -25,13 +25,13 @@ public class ContactDetails {
 		String state = scanner.nextLine();
 		System.out.println("Please Enetr Zip Code");
 		int zip = scanner.nextInt();
-		System.out.println("Please Enter contact");
+		System.out.println("Please Enter phone number");
 		long number = scanner.nextLong();
 		System.out.println("Please Enter Email address ");
-		String email = scanner.nextLine();
+		String email = scanner.next();
 		PersonInformation p = new PersonInformation(name, lName, address, city, state, zip, number, email);
 		persons.add(p);
-		System.out.println("Input 1 for storing multiple address");
+		System.out.println("Input 1 to add another or 2 for previous options");
 		int n = scanner.nextInt();
 		if (n == 1) {
 			addPerson();

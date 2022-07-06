@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class AddressBook {
 	public static void main(String[] args) {
+		/**
+		 * generating 4 random numbers
+		 * 1 for adding contacts, 2 for update, 3 for delete, 4 for view
+		 */
 		System.out.println("<<<<<Welcome to Address Book>>>>>");
 		ContactDetails contact = new ContactDetails();
 		String name;
